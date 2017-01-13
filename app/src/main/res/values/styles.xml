@@ -1,11 +1,24 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <style name="AppTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/dark_red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+        <item name="android:colorBackground">@color/gray</item>
+        <item name="android:buttonStyle">@style/BeatGridButton</item>
     </style>
+
+    <style name="BeatGridButton" parent="android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/button_beat_box</item>
+
+    </style>
+    <style name="BeatGridButton.Strong">
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
 
 </resources>
